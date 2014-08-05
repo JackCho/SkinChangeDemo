@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/skin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本地皮肤" />
+
+    <Button
+        android:id="@+id/skin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="皮肤2" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img" />
+
+</LinearLayout>
